@@ -11,7 +11,7 @@ else:
 
 setup(
     name="quantum-metalearn",
-    version="1.1.1",
+    version="1.1.2",
     author="Krishna Bajpai",
     author_email="bajpaikrishna715@gmail.com",
     description="A project for meta-learning experiments",
