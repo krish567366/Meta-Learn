@@ -1,0 +1,26 @@
+
+---
+
+### **4. `MANIFEST.in`**
+```python
+# Package Data
+include LICENSE
+include README.md
+include requirements.txt
+include requirements-dev.txt
+include pyproject.toml
+
+# Configuration Files
+recursive-include configs *.yaml
+
+# Documentation
+recursive-include docs/source *.rst
+recursive-include docs/source *.md
+recursive-include docs/source *.py
+
+# Examples
+recursive-include examples *.ipynb
+recursive-include examples *.py
+
+# Quantum Configuration
+include quantum_config/*.qconfig

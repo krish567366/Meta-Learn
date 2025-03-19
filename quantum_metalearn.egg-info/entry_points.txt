@@ -1,0 +1,2 @@
+[console_scripts]
+metalearn = metalearn.interfaces.cli:cli

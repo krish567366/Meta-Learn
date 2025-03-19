@@ -1,0 +1,3 @@
+build/*
+dist/*
+quantum_metalearn.egg-info/*

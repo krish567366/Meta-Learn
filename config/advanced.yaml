@@ -1,0 +1,17 @@
+# Example configs/advanced.yaml
+training:
+  meta_batch_size: 32
+  adaptation_steps: 5
+  optimizer:
+    name: adamw
+    lr: 1e-4
+    weight_decay: 0.01
+
+environments:
+  task_scheduler: curriculum
+  difficulty_curve: exponential
+  nonstationarity: 0.2
+
+hardware:
+  mixed_precision: bf16
+  gradient_checkpointing: True
